@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Установка и настройка Zabbix через Docker"
+---
+
 Я установил две ВМ на Ubuntu Server 20.04 через VirtualBox. Так как все находится физически на одном ноуте в настройках сети выбрал Сетевой мост.
 **zabbix-server**: тут через docker-compose устанавливается mysql-server, zabbix-server, веб морда. И нативно zabbix-agent
 **test-vm**: тут контейнер с python скриптом, который генерит нагрузку на CPU и нативно zabbix-agent
